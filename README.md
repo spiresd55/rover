@@ -17,6 +17,31 @@
 
 (4) Would have seperated the canvas from the lines drawm for the rover component
 
+## Tech Stack
+(1) Redux
+
+(2) Redux Form
+
+(3) Material UI
+
+(4) React
+
+(5) React-Reselect
+
+(6) Sass
+
+## About the files
+(1) The algorithim for the rover is in ./src/components/compass/roverUtils.js
+
+(2) There is a reducer for the rover state based on form submits. All the reducers and selectors for the app store are within ./src/store
+
+(3) The redux form to set up the canvas and rover is within ./src/components/form
+
+(4) The main view is within ./src/views
+
+(5) The validations for the form is within ./src/components/form/roverFormContainer
+
+(6) Wrote a helper lib for validating called reduxFormValidator.js. This can be found within ./src/components/utils
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
