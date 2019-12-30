@@ -1,3 +1,19 @@
+## Project
+
+## Starting the project
+### `npm install && npm run start`
+
+## Assumptions I made
+(1) If a rover goes out of bounds it will remain in its previous position
+(2) Error handling on each form input, and it needs to account for starting cordinates starting out of the boundaries
+
+## If I had more time
+(1) Would have enforced prop-types on each file, and enforced the data passed
+(2) Write a spec file for each class
+(3) Improve the animation by creation artifical coordinates between each point
+(4) Would have seperated the canvas from the lines drawm for the rover component
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
